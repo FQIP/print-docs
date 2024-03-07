@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnCall").click(function () {
+                jQuery.support.cors = true;			
+                $.ajax({
+                    dataType: "json",                    
+                    type: "get",
+                    url: "http://127.0.0.1:8088/ReadCard",//接口服务器地址  参数: Fp=1读证内指纹，PhotoQuality 身份证头像质量，cardImg=1获取身份证正反面图片
+					async: false,
+					//contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                    success: function (data) {
+					  //成功执行
+                    	 alert("成功执行");
+                        //console.log("data="+data);
+                        $("#divInfo").html("retcode:" + data.retcode + "<br />" + "retmsg:" + data.retmsg + "<br />" + "errmsg:" + data.errmsg + "<br />" +"卡类"+data.CardType+ "<br />"+ "姓名:" + data.name +"  英文姓名:"+data.EngName+
+                                           "<br />" + "性别:" + data.sex + "<br />" + "民族:" + data.nation + "<br />" + "出生:" + data.born + "<br />" + "住址:" + data.address + "<br />" +
+                                           "身份证号:" + data.cardno + "<br />" + "有效期开" + data.userlifeb + "<br />" + "有效期结" + data.userlifee + "<br />" + "发证机关:" + data.police + "<br />" +
+                                           "通行证号" + data.PassID + "<br />"+"签发次数:" + data.IssuesTimes + "<br />"/* + "指纹信息:" + data.FpDescribe + "<br />"+"指纹特征:"+data.FpData  */);
+                        $("#img").attr("src", "");
+                        $("#img").attr("src", "data:image/jpg;base64," + data.photobase64);
+                        $("#frontImg").attr("src", "data:image/jpg;base64," + data.frontImg);
+                        $("#backImg").attr("src", "data:image/jpg;base64," + data.backImg);
+                        //成功执行
+                        //console.log(data);
+                    },
+                    error: function (e) {
+                        //失败执行
+                        alert("失败执行");
+                        alert(e.status + ',' + e.statusText);
+                    }
+                });
+            });
+            
+            
+        });
+    </script>
+    <style>
+        .first {
+            float: left;
+            width: 30%;
+            height: 400px;
+        }
+
+        .sec {
+            float: left;
+            
+            height: 300px;
+        }
+
+        .tir {
+            float: left;
+            width: 100%;
+            height: 50px;
+        }
+        .for {
+            float: left;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="first" id="divInfo"></div>
+    <div class="sec"><img id="img" src="" /></div>
+
+    <div class="tir">
+        <input type="button" id="btnCall" value="读身份证" />
+    </div>
+    
+    <div class="for">
+        <div class="img2"><img id="frontImg" src="" /></div>
+ 				 <div class="img3"><img id="backImg" src="" /></div>
+    </div>
+    
+
+
+
+</body>
+</html>

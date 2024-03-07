@@ -1,0 +1,14 @@
+﻿   2.0.9.2 新增自启动脚本配置
+
+1.修改启动脚本startup.bat中对应的服务器ip端口(法官端地址)和orgId,就是当事人的登录地址
+ http://ip:port/litigant/login?orgId=场地ID 举例:http://192.168.3.158:9082/litigant/login?orgId=10505
+
+2.将脚本加入自启动程序中
+win7做法参考:Win7开机自启动脚本程序制作-百度经验.mht
+win10做法:
+1.在资源管理器地址栏输入C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp 2.将修改后的脚本放入对应目录下
+2.如果1不行,找到chrome实际安装路径替换下面命令路径start C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe -kiosk "https://icourt.yunjiacloud.com/judgetest/litigant/login?orgId=60923" 
+
+3.双击执行脚本测试
+
+4.重启验证

@@ -1,0 +1,191 @@
+;
+;  .INF for Windows 2000/XP/Vista (32-bit and 64-bit)
+;
+; ** Disc Publisher SE-3 **
+;
+
+[Version]
+Signature="$Windows NT$"
+Class=Printer
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Provider=%Organization%
+DriverVer = 05/13/2016, 1.00
+CatalogFile=PT_DPSE3.cat
+
+;
+; Manufacturer Sections
+;
+; This section lists all of the manufacturers that we will
+; display in the Dialog box.
+;
+[Manufacturer]
+%PRIMERA_TECH% = Primera, NTamd64
+
+
+
+;
+; Model Sections
+;
+; These sections correspond with an entry listed in the
+; [Manufacturer] section above. The models will be displayed in the order
+; that they appear here.
+
+; Used to install
+;;    - an x86 driver on a machine running Windows 2000/XP/Vista  32-Bit
+[Primera]
+%PRINTER_NAME%  = OEMPRINT,USBPRINT\Primera_Technology_I9299
+
+
+;; Used to install
+;;    - an x64 driver on a machine of any architecture type, running Windows XP/Vista  64-Bit
+[Primera.NTamd64]
+%PRINTER_NAME%  = OEMPRINT,USBPRINT\Primera_Technology_I9299
+
+
+;
+; DDInstall Section
+;
+[OEMPRINT]
+CopyFiles   = OEMCOPY, INI_FILES
+DataSection = OEMDATA
+
+
+; Copy Sections
+;
+; Lists of files that are actually copied. These sections are referenced
+; from the installer sections above. Only create a section if it contains
+; two or more files (if we only copy a single file, identify it in the
+; installer section, using the @filename notation) or if it's a color
+; profile (since the DestinationDirs can only handle sections, and not
+; individual files).
+;
+[OEMCOPY]
+PTDPse3_d.dll
+PTDPse3_u.dll
+PTDPse3_d.dat
+PT_DPse3.hlp
+langmnSE.dll
+PT_Alnse3.PRN
+PT_Alnse3L.PRN
+PT_Ct1se3.prn
+PT_Ct2se3.prn
+PT_Ct1se3L.prn
+PT_Ct2se3L.prn
+PT_Prgse3.prn
+PT_Prgse3L.prn
+PT_Alnse3L.PRN
+
+[INI_FILES]
+PT_DPse3.ini
+prbshpec.dll
+prbshpeh.dll
+prbshpep.dll
+prbsflib.dll
+prltflib.dll
+prlthpec.dll
+prlthpeh.dll
+prlthpep.dll
+prbsclr1.lut
+prbsclrC.lut
+prltbsclr1.lut
+prltbsclrL.lut
+
+
+
+[OEMCOPY_WIN]
+
+;
+; Data Sections
+;
+; These sections contain data that is shared between devices.
+;
+[OEMDATA]
+DriverFile = PTDPse3_d.dll
+ConfigFile = PTDPse3_u.dll
+DataFile   = PTDPse3_d.dat
+HelpFile   = PT_DPse3.hlp
+LanguageMonitor=%LANGMON%
+
+
+;
+; Call SetupSetDirectoryId with 66000 to set the target directory at runtime
+; (depending on which environment drivers are getting installed)
+;
+[DestinationDirs]
+DefaultDestDir=66000
+INI_FILES= 16419, PTI\Drivers\%PRINTER_NAME%
+
+
+[SourceDisksNames.x86]
+1= %Location%,,,
+
+[SourceDisksFiles.x86]
+PTDPse3_d.dll = 1,\i386
+PTDPse3_u.dll = 1,\i386
+langmnSE.dll = 1,\i386
+prbshpec.dll = 1,\i386
+prbshpeh.dll = 1,\i386
+prbshpep.dll = 1,\i386
+prbsflib.dll = 1,\i386
+prltflib.dll = 1,\i386
+prlthpec.dll = 1,\i386
+prlthpeh.dll = 1,\i386
+prlthpep.dll = 1,\i386
+PTDPse3_d.dat = 1
+PT_DPse3.hlp = 1
+PT_Alnse3.PRN = 1
+PT_Alnse3L.PRN = 1
+PT_Ct1se3.prn = 1
+PT_Ct2se3.prn = 1
+PT_Prgse3.prn = 1
+PT_Ct1se3L.prn = 1
+PT_Ct2se3L.prn = 1
+PT_Prgse3L.prn = 1
+PT_DPse3.ini = 1
+prbsclr1.lut = 1
+prbsclrC.lut = 1
+prltbsclr1.lut = 1
+prltbsclrL.lut = 1
+
+
+[SourceDisksNames.amd64]
+1= %Location%,,,
+
+[SourceDisksFiles.amd64]
+PTDPse3_d.dll = 1,\amd64
+PTDPse3_u.dll = 1,\amd64
+langmnSE.dll = 1,\amd64
+prbshpec.dll = 1,\amd64
+prbshpeh.dll = 1,\amd64
+prbshpep.dll = 1,\amd64
+prbsflib.dll = 1,\amd64
+prltflib.dll = 1,\amd64
+prlthpec.dll = 1,\amd64
+prlthpeh.dll = 1,\amd64
+prlthpep.dll = 1,\amd64
+PTDPse3_d.dat = 1
+PT_DPse3.hlp = 1
+PT_Alnse3.PRN = 1
+PT_Alnse3L.PRN = 1
+PT_Ct1se3.prn = 1
+PT_Ct2se3.prn = 1
+PT_Prgse3.prn = 1
+PT_Ct1se3L.prn = 1
+PT_Ct2se3L.prn = 1
+PT_Prgse3L.prn = 1
+PT_DPse3.ini = 1
+prbsclr1.lut = 1
+prbsclrC.lut = 1
+prltbsclr1.lut = 1
+prltbsclrL.lut = 1
+
+
+;
+; Localizable Strings
+;
+[Strings]
+Organization = "Primera Technology, Inc."
+Location       = "Primera Installer Disc"
+PRIMERA_TECH = "Primera Technology"
+LANGMON="Primera Language Monitor SE,LANGMNSE.DLL"
+PRINTER_NAME = "Disc Publisher SE-3"

@@ -1,0 +1,20 @@
+chrome设置开机自动启动，和自启动浏览器，自动全屏访问某个url,两个显示器分别显示不同的url 。
+
+1,打开C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+2,复制两个谷歌浏览器桌面快捷方式至该路径下，
+分别右键属性，在目标选项卡后面加以下信息：
+C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe --window-position=0,0 --kiosk --kiosk-printing http://192.168.2.39:9880/ --user-data-dir="C:/temp/Chrome/1"
+C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe --window-position=1920,0 --kiosk --kiosk-printing http://192.168.2.30:9880/ --user-data-dir="C:/temp/Chrome/2"
+ 
+
+
+ 
+ Chrome部分参数说明：
+ --kiosk 启用自助服务终端模式。请注意，这不是ChromeOS信息亭模式。
+ --kiosk-printing 在打印预览中自动按下打印按钮。
+ --window-position 窗体位置（X，Y），如果两屏均是1920*1080，第一屏起点坐标为 0，0  第二屏起坐标为 1920，0 不同分辨率的双屏目前尚未研究其坐标。
+ --user-data-dir 用户数据保存路径，确保不同Chrome程序使用不同的路径，否则所有的Chrome程序的窗体位置和大小会与第一个保持一致
+ 
+ 参考资料：
+ https://blog.csdn.net/theodore26/article/details/85236710
+ https://www.cnblogs.com/yikemogutou/p/12624113.html

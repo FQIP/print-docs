@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bebfee4-f0a4-4e45-8bc8-98a9a59cd7af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../JavadllDemo/src/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../JavadllDemo/src/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PMYBurnSDKDemo/QRecorderWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PMYBurnSDKDemo/QRecorderWidget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PMYBurnSvc/BurnTask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PMYBurnSvc/BurnTask.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PMYBurnSvc/TaskRunnable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PMYBurnSvc/TaskRunnable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PMYBurnSvcSdk/PMYBurnSvcSdk.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PMYBurnSvcSdk/PMYBurnSvcSdk.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../PMYBurnSvcSdk/PMYBurnSvcSdk.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../PMYBurnSvcSdk/PMYBurnSvcSdk.vcxproj.filters" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vqNF5pR0WPFYNH5CATCfCUTjul" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SDK/src/XinKeBurnSdk-javaJNA" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\ytx\PMYBurnSvc\PMYBurnSvc_fork\Installer\win32\XinKe_Sdk\Demo程序\Java_Demo\XinkeBurnDemo-Java\XinKe_burn_sdk-1.0.jar!\win32-x86-64" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pmy.com.App" />
+      <module name="com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pmy.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealFileBurn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pmy.com.RealFileBurn" />
+      <module name="com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pmy.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealStreamBurn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pmy.com.RealStreamBurn" />
+      <module name="com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pmy.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xinke-sdk-1.0.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/xinke-sdk-1.0.0.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.RealStreamBurn" />
+        <item itemvalue="Application.RealFileBurn" />
+        <item itemvalue="JAR Application.xinke-sdk-1.0.0.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bebfee4-f0a4-4e45-8bc8-98a9a59cd7af" name="Default Changelist" comment="" />
+      <created>1627285553112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627285553112</updated>
+      <workItem from="1627285554284" duration="543000" />
+      <workItem from="1627286124980" duration="3377000" />
+      <workItem from="1627972428631" duration="1163000" />
+      <workItem from="1627979265053" duration="4772000" />
+      <workItem from="1629879833305" duration="7269000" />
+      <workItem from="1630035907684" duration="10585000" />
+      <workItem from="1630058120506" duration="5155000" />
+      <workItem from="1630395208645" duration="3562000" />
+      <workItem from="1630563425236" duration="3617000" />
+      <workItem from="1630913910130" duration="855000" />
+      <workItem from="1631584306558" duration="1971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630054615381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630054615381" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1631584349565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631584349565" />
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.1.bottom" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.1.center" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.1.left" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state width="1877" height="237" key="GridCell.Tab.1.right" timestamp="1630898455235">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="237" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630898455235" />
+    <state width="1877" height="237" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630292419637" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1630050033835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630050033835" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pmy/com/RealFileBurn.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pmy/com/RealFileBurn.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pmy/com/RealStreamBurn.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pmy/com/App.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pmy/com/App.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/com$xinke_sdk_1_0_0_jar.ic" NAME="xinke-sdk-1.0.0.jar Coverage Results" MODIFIED="1627979278367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

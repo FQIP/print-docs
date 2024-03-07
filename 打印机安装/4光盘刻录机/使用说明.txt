@@ -1,0 +1,6 @@
+﻿目录说明：
+|--XinKeBurnSvc			信刻刻录服务
+|--XinKeBurnClient		刻录客户端
+|--XinKe Sdk			信刻二次开发包
+
+

@@ -1,0 +1,96 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/device_busy.png</file>
+        <file>Resources/device_error.png</file>
+        <file>Resources/device_idle.png</file>
+        <file>Resources/PTRobot/bins_0.png</file>
+        <file>Resources/PTRobot/bins_20.png</file>
+        <file>Resources/PTRobot/bins_40.png</file>
+        <file>Resources/PTRobot/bins_60.png</file>
+        <file>Resources/PTRobot/bins_80.png</file>
+        <file>Resources/PTRobot/bins_100.png</file>
+        <file>Resources/PTRobot/bins_unk.png</file>
+        <file>Resources/PTRobot/DPII.png</file>
+        <file>Resources/PTRobot/DPPRO.png</file>
+        <file>Resources/PTRobot/DPSE.png</file>
+        <file>Resources/PTRobot/DPXR.png</file>
+        <file>Resources/PTRobot/DPXRn.png</file>
+        <file>Resources/PTRobot/DPXRP.png</file>
+        <file>Resources/PTRobot/Mblack_0.png</file>
+        <file>Resources/PTRobot/Mblack_5.png</file>
+        <file>Resources/PTRobot/Mblack_15.png</file>
+        <file>Resources/PTRobot/Mblack_20.png</file>
+        <file>Resources/PTRobot/Mblack_30.png</file>
+        <file>Resources/PTRobot/Mblack_40.png</file>
+        <file>Resources/PTRobot/Mblack_50.png</file>
+        <file>Resources/PTRobot/Mblack_60.png</file>
+        <file>Resources/PTRobot/Mblack_70.png</file>
+        <file>Resources/PTRobot/Mblack_80.png</file>
+        <file>Resources/PTRobot/Mblack_90.png</file>
+        <file>Resources/PTRobot/Mblack_100.png</file>
+        <file>Resources/PTRobot/Mcyan_0.png</file>
+        <file>Resources/PTRobot/Mcyan_5.png</file>
+        <file>Resources/PTRobot/Mcyan_15.png</file>
+        <file>Resources/PTRobot/Mcyan_20.png</file>
+        <file>Resources/PTRobot/Mcyan_30.png</file>
+        <file>Resources/PTRobot/Mcyan_40.png</file>
+        <file>Resources/PTRobot/Mcyan_50.png</file>
+        <file>Resources/PTRobot/Mcyan_60.png</file>
+        <file>Resources/PTRobot/Mcyan_70.png</file>
+        <file>Resources/PTRobot/Mcyan_80.png</file>
+        <file>Resources/PTRobot/Mcyan_90.png</file>
+        <file>Resources/PTRobot/Mcyan_100.png</file>
+        <file>Resources/PTRobot/Mmagenta_0.png</file>
+        <file>Resources/PTRobot/Mmagenta_5.png</file>
+        <file>Resources/PTRobot/Mmagenta_15.png</file>
+        <file>Resources/PTRobot/Mmagenta_20.png</file>
+        <file>Resources/PTRobot/Mmagenta_30.png</file>
+        <file>Resources/PTRobot/Mmagenta_40.png</file>
+        <file>Resources/PTRobot/Mmagenta_50.png</file>
+        <file>Resources/PTRobot/Mmagenta_60.png</file>
+        <file>Resources/PTRobot/Mmagenta_70.png</file>
+        <file>Resources/PTRobot/Mmagenta_80.png</file>
+        <file>Resources/PTRobot/Mmagenta_90.png</file>
+        <file>Resources/PTRobot/Mmagenta_100.png</file>
+        <file>Resources/PTRobot/Mmagenta_unknown.png</file>
+        <file>Resources/PTRobot/Myellow_0.png</file>
+        <file>Resources/PTRobot/Myellow_5.png</file>
+        <file>Resources/PTRobot/Myellow_15.png</file>
+        <file>Resources/PTRobot/Myellow_20.png</file>
+        <file>Resources/PTRobot/Myellow_30.png</file>
+        <file>Resources/PTRobot/Myellow_40.png</file>
+        <file>Resources/PTRobot/Myellow_50.png</file>
+        <file>Resources/PTRobot/Myellow_60.png</file>
+        <file>Resources/PTRobot/Myellow_70.png</file>
+        <file>Resources/PTRobot/Myellow_80.png</file>
+        <file>Resources/PTRobot/Myellow_90.png</file>
+        <file>Resources/PTRobot/Myellow_100.png</file>
+        <file>Resources/PTRobot/Myellow_unknown.png</file>
+        <file>Resources/drive/BD OpticalDrive.png</file>
+        <file>Resources/drive/BD-R.png</file>
+        <file>Resources/drive/BD-RE.png</file>
+        <file>Resources/drive/BD-ROM.png</file>
+        <file>Resources/drive/CD-R.png</file>
+        <file>Resources/drive/CD-ROM.png</file>
+        <file>Resources/drive/CD-RW.png</file>
+        <file>Resources/drive/Disc Printer.png</file>
+        <file>Resources/drive/DISC.png</file>
+        <file>Resources/drive/DV DVD-RAM.png</file>
+        <file>Resources/drive/DVD OpticalDrive.png</file>
+        <file>Resources/drive/DVD.png</file>
+        <file>Resources/drive/DVD+R.png</file>
+        <file>Resources/drive/DVD+RW.png</file>
+        <file>Resources/drive/DVD-R.png</file>
+        <file>Resources/drive/DVD-RAM.png</file>
+        <file>Resources/drive/DVD-ROM.png</file>
+        <file>Resources/drive/DVD-RW.png</file>
+        <file>Resources/drive/HD DVD OpticalDrive.png</file>
+        <file>Resources/drive/HD DVD-R.png</file>
+        <file>Resources/drive/HD DVD-ROM.png</file>
+        <file>Resources/drive/OpticalDrive.png</file>
+        <file>Resources/PTRobot/NoneFound.png</file>
+        <file>Skin/fontawesome-webfont.ttf</file>
+        <file>Resources/logo.png</file>
+        <file>Resources/logo0.png</file>
+    </qresource>
+</RCC>
